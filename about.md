@@ -8,9 +8,9 @@ title: About
 
 ----
 
-> I am **Michael Okuboyejo.** Programmer with a life. Robotics enthusiast. Jesus Freak. Android Developer
+> I am **Michael Okuboyejo.** 
 
-Bsc. Electronics and Electrical Engineering (in view) , Obafemi Awolowo University, Ile-Ife **Great Ife** . I believe technology is neither hardware nor software but both. I spend my free time tinkering with Android Studio to the Raspberry Pi and the Arduino. I love to read. I love Nutri-C!
+Bsc. Electronics and Electrical Engineering (in view) , Obafemi Awolowo University, Ile-Ife **Great Ife** . I am passionate about technology. My interests span from **Software ( Mobile and Web Applications ) Development** to **Robotics** and **Artificial Intelligence** to **Data Science** and the **Internet of Things**. I am not just interested in creating technology, but in getting it to the hands of the user ( who does not have to know how it works )
 
 
 
