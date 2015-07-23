@@ -1,0 +1,27 @@
+# Dependencies
+markdown:         redcarpet
+pygments:         true
+
+# Permalinks
+permalink:        pretty
+
+# Comments
+comments:         true
+
+# Setup
+title:            Michael
+tagline:          'Tech Enthusiast'
+description:      'To Software , Hardware and Users.'
+url:              http://michael.me
+
+author:
+  name:           'Michael Okuboyejo'
+  url:            https://twitter.com/mykelokuboyejo
+
+paginate:         5
+
+# Custom vars
+#version:          2.0.0
+
+#github:
+#  repo:           https://github.com/poole/hyde
