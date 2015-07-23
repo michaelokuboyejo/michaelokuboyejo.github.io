@@ -21,7 +21,7 @@ Connect with me:
 
 * [Twitter](http://twitter.com/mykelokuboyejo)
 * [LinkedIn](https://linkedin.com/michael)
-* [Google+](http://sublimetext.org)
-* [Hackster](http://hackster.io/michael)
+* [Google+](http://google.com/+MykelOkuboyejo)
+* [Facebook](http://facebook.com/michaelgtp)
 
 Cheers :-)
