@@ -25,7 +25,7 @@ Well this is a channel, an online voice and a platform to reach people. There ar
  Publishing ?
  ------------
  
- I write posts in [Markdown](http://markdown) and I **git push** to publish.
+ I write posts in [Markdown](https://en.wikipedia.org/wiki/Markdown) and I **git push** to publish.
  Cool right ?
  With some help from [Joshua Lande](http://joshualande.com/jekyll-github-pages-poole/) , I was able to do a few other things.
  
