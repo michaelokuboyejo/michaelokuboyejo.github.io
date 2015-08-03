@@ -12,13 +12,18 @@ comments:         true
 title:            Michael
 tagline:          'Tech Enthusiast'
 description:      'To Software , Hardware and Users.'
-url:              http://michael.me
+url:              http://michaelokuboyejo.github.io
 
 author:
   name:           'Michael Okuboyejo'
   url:            https://twitter.com/mykelokuboyejo
 
 paginate:         5
+
+analytics :
+  provider : google 
+  google : 
+      tracking_id : 'UA-65915501-1'
 
 # Custom vars
 #version:          2.0.0
