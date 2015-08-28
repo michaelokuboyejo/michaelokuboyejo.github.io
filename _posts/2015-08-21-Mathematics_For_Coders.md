@@ -20,7 +20,8 @@ Fibonacci Numbers form a sequence of integers defined recursively in the followi
  The above algorithm works but as the sequence grows exponentially we get an inefficient solution. A faster algorithm based on the formula: 
  
  ```
- def fibonacci(n): #Fibonacci formula that returns immediately; no recursion
+  #Fibonacci formula that returns immediately
+ def fibonacci(n):
     fterm = (((1 + sqrt(5))/2)**n)/sqrt(5)
     sterm = (((1 - sqrt(5))/2)**n)/sqrt(5)
     return fterm - sterm
@@ -57,7 +58,20 @@ def isPrime(n):
         if n % i == 0:
             return False
     return True```
-###GCD
+So, there's an algorithm you can use too- Miller Rabin's Test. It's  part of the standard library (java.math.BigInteger):
+
+```
+import java.math.BigInteger;
+ 
+public class MillerRabinPrimalityTest {
+  public static void main(String[] args) {
+    BigInteger n = new BigInteger(args[0]);
+    int certainty = Integer.parseInt(args[1]);
+    System.out.println(n.toString() + " is " + (n.isProbablePrime(certainty) ? "probably prime" : "composite"));
+  }
+}
+
+```###GCD
 The greatest common divisor (GCD) of two numbers a and b is the greatest number that divides evenly into both a and b. We could ( naively ) start from the smallest of the two numbers and work our way downwards until we find a number that divides into both of them: 
 
 ```
@@ -83,8 +97,27 @@ The cool stuff is you can use this algorithm to compute the Lowest Common Multip
 ```
 def lcm(a, b):
     return b * a // gcd(a, b)
-```##Combinatorics
+```
+
+##Bases
+
+A very common problem faced during contests involve conversion to and from a base.
+
+```
+public int toDecimal(int n, int b) {	int result=0; int multiplier=1;	while(n>0) {		result+=n%10*multiplier; multiplier*=b;		n/=10;	}
+	return result;
+}
+```
+##Combinatorics
 ##Fraction
 ##Coordinate geometry
-###References
+--
+Tests:--
+
+
+```
+1. Given two lines on a Cartesian plane, determine whether the two lines would inter- sect.
+2. Write a method that revereses a number i.e. Takes a number 1234 and returns 4321
+3. 
+```###References
 [1]: http://facebook.comGood luck :-)
